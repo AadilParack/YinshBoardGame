@@ -42,3 +42,5 @@ When moving a ring, the following rules apply:
 It is possible, and not uncommon, to make a move which results in the opposing player having a line of five markers in a row. When more than one line is made in the same turn, the player who just moved resolves their own lines (if any) first, and then the other player resolves their lines (if any) before making his next move. Lines are resolved one at a time, so if a single marker is shared by two lines, only one of those lines may be resolved (but the player chooses which).
 
 If all of the markers are placed on the board before either player has won, the game ends, with the winner being the player who has removed more rings. If both players have removed the same number of rings at this point, the game ends in a draw.
+
+<img src="hhhhh.png">
