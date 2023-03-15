@@ -1,9 +1,19 @@
 #include <iostream>
 using namespace std;
 
+int x[19][11];
+int pc=5;
+int pr=9;
+
+void moveup();
+void movedw();
+void moveul();
+void moveur();
+void movedl();
+void movedr();
+
 int main()
 {
-    int x[19][11];
     int i=0;
     int j=0;
     for(i=0;i<19;i++)
@@ -52,5 +62,46 @@ int main()
         printf("\n");
     }
 
-    /*check dir: u,d,ul,ur,dl,dr*/
+    moveup();
+    printf("\n%d",x[pr][pc]);
+    moveup();
+    printf("\n%d",x[pr][pc]);
+    movedl();
+    printf("\n%d",x[pr][pc]);
+    moveur();
+    printf("\n%d",x[pr][pc]);
+}
+
+void moveup(){
+    pr=pr-2;
+    printf("\n%d,%d",pr,pc);
+}
+
+void movedw(){
+    pr=pr+2;
+    printf("\n%d,%d",pr,pc);
+}
+
+void moveul(){
+    pr=pr-1;
+    pc=pc-1;
+    printf("\n%d,%d",pr,pc);
+}
+
+void moveur(){
+    pr=pr-1;
+    pc=pc+1;
+    printf("\n%d,%d",pr,pc);
+}
+
+void movedl(){
+    pr=pr+1;
+    pc=pc-1;
+    printf("\n%d,%d",pr,pc);
+}
+
+void movedr(){
+    pr=pr+1;
+    pc=pc+1;
+    printf("\n%d,%d",pr,pc);
 }
