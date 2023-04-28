@@ -45,91 +45,91 @@ for i in range(3,16,2):
     
 #buttons
 buttons = []
-buttons.append({"rect": pygame.Rect(112, 303, 100, 100), "text": (6,0)})
-buttons.append({"rect": pygame.Rect(112, 368, 100, 100), "text": (8,0)})
-buttons.append({"rect": pygame.Rect(112, 433, 100, 100), "text": (10,0)})
-buttons.append({"rect": pygame.Rect(112, 498, 100, 100), "text": (12,0)})
-buttons.append({"rect": pygame.Rect(170, 205, 100, 100), "text": (3,1)})
-buttons.append({"rect": pygame.Rect(170, 270, 100, 100), "text": (5,1)})
-buttons.append({"rect": pygame.Rect(170, 335, 100, 100), "text": (7,1)})
-buttons.append({"rect": pygame.Rect(170, 400, 100, 100), "text": (9,1)})
-buttons.append({"rect": pygame.Rect(170, 465, 100, 100), "text": (11,1)})
-buttons.append({"rect": pygame.Rect(170, 530, 100, 100), "text": (13,1)})
-buttons.append({"rect": pygame.Rect(170, 595, 100, 100), "text": (15,1)})
-buttons.append({"rect": pygame.Rect(227, 173, 100, 100), "text": (2,2)})
-buttons.append({"rect": pygame.Rect(227, 238, 100, 100), "text": (4,2)})
-buttons.append({"rect": pygame.Rect(227, 303, 100, 100), "text": (6,2)})
-buttons.append({"rect": pygame.Rect(227, 368, 100, 100), "text": (8,2)})
-buttons.append({"rect": pygame.Rect(227, 433, 100, 100), "text": (10,2)})
-buttons.append({"rect": pygame.Rect(227, 498, 100, 100), "text": (12,2)})
-buttons.append({"rect": pygame.Rect(227, 563, 100, 100), "text": (14,2)})
-buttons.append({"rect": pygame.Rect(227, 628, 100, 100), "text": (16,2)})
-buttons.append({"rect": pygame.Rect(285, 140, 100, 100), "text": (1,3)})
-buttons.append({"rect": pygame.Rect(285, 205, 100, 100), "text": (3,3)})
-buttons.append({"rect": pygame.Rect(285, 270, 100, 100), "text": (5,3)})
-buttons.append({"rect": pygame.Rect(285, 335, 100, 100), "text": (7,3)})
-buttons.append({"rect": pygame.Rect(285, 400, 100, 100), "text": (9,3)})
-buttons.append({"rect": pygame.Rect(285, 465, 100, 100), "text": (11,3)})
-buttons.append({"rect": pygame.Rect(285, 530, 100, 100), "text": (13,3)})
-buttons.append({"rect": pygame.Rect(285, 595, 100, 100), "text": (15,3)})
-buttons.append({"rect": pygame.Rect(285, 660, 100, 100), "text": (17,3)})
-buttons.append({"rect": pygame.Rect(342, 108, 100, 100), "text": (0,4)})
-buttons.append({"rect": pygame.Rect(342, 173, 100, 100), "text": (2,4)})
-buttons.append({"rect": pygame.Rect(342, 238, 100, 100), "text": (4,4)})
-buttons.append({"rect": pygame.Rect(342, 303, 100, 100), "text": (6,4)})
-buttons.append({"rect": pygame.Rect(342, 368, 100, 100), "text": (8,4)})
-buttons.append({"rect": pygame.Rect(342, 433, 100, 100), "text": (10,4)})
-buttons.append({"rect": pygame.Rect(342, 498, 100, 100), "text": (12,4)})
-buttons.append({"rect": pygame.Rect(342, 563, 100, 100), "text": (14,4)})
-buttons.append({"rect": pygame.Rect(342, 628, 100, 100), "text": (16,4)})
-buttons.append({"rect": pygame.Rect(342, 693, 100, 100), "text": (18,4)})
-buttons.append({"rect": pygame.Rect(400, 140, 100, 100), "text": (1,5)})
-buttons.append({"rect": pygame.Rect(400, 205, 100, 100), "text": (3,5)})
-buttons.append({"rect": pygame.Rect(400, 270, 100, 100), "text": (5,5)})
-buttons.append({"rect": pygame.Rect(400, 335, 100, 100), "text": (7,5)})
-buttons.append({"rect": pygame.Rect(400, 400, 100, 100), "text": (9,5)})
-buttons.append({"rect": pygame.Rect(400, 465, 100, 100), "text": (11,5)})
-buttons.append({"rect": pygame.Rect(400, 530, 100, 100), "text": (13,5)})
-buttons.append({"rect": pygame.Rect(400, 595, 100, 100), "text": (15,5)})
-buttons.append({"rect": pygame.Rect(400, 660, 100, 100), "text": (17,5)})
-buttons.append({"rect": pygame.Rect(457, 108, 100, 100), "text": (0,6)})
-buttons.append({"rect": pygame.Rect(457, 173, 100, 100), "text": (2,6)})
-buttons.append({"rect": pygame.Rect(457, 238, 100, 100), "text": (4,6)})
-buttons.append({"rect": pygame.Rect(457, 303, 100, 100), "text": (6,6)})
-buttons.append({"rect": pygame.Rect(457, 368, 100, 100), "text": (8,6)})
-buttons.append({"rect": pygame.Rect(457, 433, 100, 100), "text": (10,6)})
-buttons.append({"rect": pygame.Rect(457, 498, 100, 100), "text": (12,6)})
-buttons.append({"rect": pygame.Rect(457, 563, 100, 100), "text": (14,6)})
-buttons.append({"rect": pygame.Rect(457, 628, 100, 100), "text": (16,6)})
-buttons.append({"rect": pygame.Rect(457, 693, 100, 100), "text": (18,6)})
-buttons.append({"rect": pygame.Rect(515, 140, 100, 100), "text": (1,7)})
-buttons.append({"rect": pygame.Rect(515, 205, 100, 100), "text": (3,7)})
-buttons.append({"rect": pygame.Rect(515, 270, 100, 100), "text": (5,7)})
-buttons.append({"rect": pygame.Rect(515, 335, 100, 100), "text": (7,7)})
-buttons.append({"rect": pygame.Rect(515, 400, 100, 100), "text": (9,7)})
-buttons.append({"rect": pygame.Rect(515, 465, 100, 100), "text": (11,7)})
-buttons.append({"rect": pygame.Rect(515, 530, 100, 100), "text": (13,7)})
-buttons.append({"rect": pygame.Rect(515, 595, 100, 100), "text": (15,7)})
-buttons.append({"rect": pygame.Rect(515, 660, 100, 100), "text": (17,7)})
-buttons.append({"rect": pygame.Rect(572, 173, 100, 100), "text": (2,8)})
-buttons.append({"rect": pygame.Rect(572, 238, 100, 100), "text": (4,8)})
-buttons.append({"rect": pygame.Rect(572, 303, 100, 100), "text": (6,8)})
-buttons.append({"rect": pygame.Rect(572, 368, 100, 100), "text": (8,8)})
-buttons.append({"rect": pygame.Rect(572, 433, 100, 100), "text": (10,8)})
-buttons.append({"rect": pygame.Rect(572, 498, 100, 100), "text": (12,8)})
-buttons.append({"rect": pygame.Rect(572, 563, 100, 100), "text": (14,8)})
-buttons.append({"rect": pygame.Rect(572, 628, 100, 100), "text": (16,8)})
-buttons.append({"rect": pygame.Rect(630, 205, 100, 100), "text": (3,9)})
-buttons.append({"rect": pygame.Rect(630, 270, 100, 100), "text": (5,9)})
-buttons.append({"rect": pygame.Rect(630, 335, 100, 100), "text": (7,9)})
-buttons.append({"rect": pygame.Rect(630, 400, 100, 100), "text": (9,9)})
-buttons.append({"rect": pygame.Rect(630, 465, 100, 100), "text": (11,9)})
-buttons.append({"rect": pygame.Rect(630, 530, 100, 100), "text": (13,9)})
-buttons.append({"rect": pygame.Rect(630, 595, 100, 100), "text": (15,9)})
-buttons.append({"rect": pygame.Rect(687, 303, 100, 100), "text": (6,10)})
-buttons.append({"rect": pygame.Rect(687, 368, 100, 100), "text": (8,10)})
-buttons.append({"rect": pygame.Rect(687, 433, 100, 100), "text": (10,10)})
-buttons.append({"rect": pygame.Rect(687, 498, 100, 100), "text": (12,10)})
+buttons.append({"rect": pygame.Rect(112+25, 303+25, 50, 50), "text": (6,0)})
+buttons.append({"rect": pygame.Rect(112+25, 368+25, 50, 50), "text": (8,0)})
+buttons.append({"rect": pygame.Rect(112+25, 433+25, 50, 50), "text": (10,0)})
+buttons.append({"rect": pygame.Rect(112+25, 498+25, 50, 50), "text": (12,0)})
+buttons.append({"rect": pygame.Rect(170+25, 205+25, 50, 50), "text": (3,1)})
+buttons.append({"rect": pygame.Rect(170+25, 270+25, 50, 50), "text": (5,1)})
+buttons.append({"rect": pygame.Rect(170+25, 335+25, 50, 50), "text": (7,1)})
+buttons.append({"rect": pygame.Rect(170+25, 400+25, 50, 50), "text": (9,1)})
+buttons.append({"rect": pygame.Rect(170+25, 465+25, 50, 50), "text": (11,1)})
+buttons.append({"rect": pygame.Rect(170+25, 530+25, 50, 50), "text": (13,1)})
+buttons.append({"rect": pygame.Rect(170+25, 595+25, 50, 50), "text": (15,1)})
+buttons.append({"rect": pygame.Rect(227+25, 173+25, 50, 50), "text": (2,2)})
+buttons.append({"rect": pygame.Rect(227+25, 238+25, 50, 50), "text": (4,2)})
+buttons.append({"rect": pygame.Rect(227+25, 303+25, 50, 50), "text": (6,2)})
+buttons.append({"rect": pygame.Rect(227+25, 368+25, 50, 50), "text": (8,2)})
+buttons.append({"rect": pygame.Rect(227+25, 433+25, 50, 50), "text": (10,2)})
+buttons.append({"rect": pygame.Rect(227+25, 498+25, 50, 50), "text": (12,2)})
+buttons.append({"rect": pygame.Rect(227+25, 563+25, 50, 50), "text": (14,2)})
+buttons.append({"rect": pygame.Rect(227+25, 628+25, 50, 50), "text": (16,2)})
+buttons.append({"rect": pygame.Rect(285+25, 140+25, 50, 50), "text": (1,3)})
+buttons.append({"rect": pygame.Rect(285+25, 205+25, 50, 50), "text": (3,3)})
+buttons.append({"rect": pygame.Rect(285+25, 270+25, 50, 50), "text": (5,3)})
+buttons.append({"rect": pygame.Rect(285+25, 335+25, 50, 50), "text": (7,3)})
+buttons.append({"rect": pygame.Rect(285+25, 400+25, 50, 50), "text": (9,3)})
+buttons.append({"rect": pygame.Rect(285+25, 465+25, 50, 50), "text": (11,3)})
+buttons.append({"rect": pygame.Rect(285+25, 530+25, 50, 50), "text": (13,3)})
+buttons.append({"rect": pygame.Rect(285+25, 595+25, 50, 50), "text": (15,3)})
+buttons.append({"rect": pygame.Rect(285+25, 660+25, 50, 50), "text": (17,3)})
+buttons.append({"rect": pygame.Rect(342+25, 108+25, 50, 50), "text": (0,4)})
+buttons.append({"rect": pygame.Rect(342+25, 173+25, 50, 50), "text": (2,4)})
+buttons.append({"rect": pygame.Rect(342+25, 238+25, 50, 50), "text": (4,4)})
+buttons.append({"rect": pygame.Rect(342+25, 303+25, 50, 50), "text": (6,4)})
+buttons.append({"rect": pygame.Rect(342+25, 368+25, 50, 50), "text": (8,4)})
+buttons.append({"rect": pygame.Rect(342+25, 433+25, 50, 50), "text": (10,4)})
+buttons.append({"rect": pygame.Rect(342+25, 498+25, 50, 50), "text": (12,4)})
+buttons.append({"rect": pygame.Rect(342+25, 563+25, 50, 50), "text": (14,4)})
+buttons.append({"rect": pygame.Rect(342+25, 628+25, 50, 50), "text": (16,4)})
+buttons.append({"rect": pygame.Rect(342+25, 693+25, 50, 50), "text": (18,4)})
+buttons.append({"rect": pygame.Rect(400+25, 140+25, 50, 50), "text": (1,5)})
+buttons.append({"rect": pygame.Rect(400+25, 205+25, 50, 50), "text": (3,5)})
+buttons.append({"rect": pygame.Rect(400+25, 270+25, 50, 50), "text": (5,5)})
+buttons.append({"rect": pygame.Rect(400+25, 335+25, 50, 50), "text": (7,5)})
+buttons.append({"rect": pygame.Rect(400+25, 400+25, 50, 50), "text": (9,5)})
+buttons.append({"rect": pygame.Rect(400+25, 465+25, 50, 50), "text": (11,5)})
+buttons.append({"rect": pygame.Rect(400+25, 530+25, 50, 50), "text": (13,5)})
+buttons.append({"rect": pygame.Rect(400+25, 595+25, 50, 50), "text": (15,5)})
+buttons.append({"rect": pygame.Rect(400+25, 660+25, 50, 50), "text": (17,5)})
+buttons.append({"rect": pygame.Rect(457+25, 108+25, 50, 50), "text": (0,6)})
+buttons.append({"rect": pygame.Rect(457+25, 173+25, 50, 50), "text": (2,6)})
+buttons.append({"rect": pygame.Rect(457+25, 238+25, 50, 50), "text": (4,6)})
+buttons.append({"rect": pygame.Rect(457+25, 303+25, 50, 50), "text": (6,6)})
+buttons.append({"rect": pygame.Rect(457+25, 368+25, 50, 50), "text": (8,6)})
+buttons.append({"rect": pygame.Rect(457+25, 433+25, 50, 50), "text": (10,6)})
+buttons.append({"rect": pygame.Rect(457+25, 498+25, 50, 50), "text": (12,6)})
+buttons.append({"rect": pygame.Rect(457+25, 563+25, 50, 50), "text": (14,6)})
+buttons.append({"rect": pygame.Rect(457+25, 628+25, 50, 50), "text": (16,6)})
+buttons.append({"rect": pygame.Rect(457+25, 693+25, 50, 50), "text": (18,6)})
+buttons.append({"rect": pygame.Rect(515+25, 140+25, 50, 50), "text": (1,7)})
+buttons.append({"rect": pygame.Rect(515+25, 205+25, 50, 50), "text": (3,7)})
+buttons.append({"rect": pygame.Rect(515+25, 270+25, 50, 50), "text": (5,7)})
+buttons.append({"rect": pygame.Rect(515+25, 335+25, 50, 50), "text": (7,7)})
+buttons.append({"rect": pygame.Rect(515+25, 400+25, 50, 50), "text": (9,7)})
+buttons.append({"rect": pygame.Rect(515+25, 465+25, 50, 50), "text": (11,7)})
+buttons.append({"rect": pygame.Rect(515+25, 530+25, 50, 50), "text": (13,7)})
+buttons.append({"rect": pygame.Rect(515+25, 595+25, 50, 50), "text": (15,7)})
+buttons.append({"rect": pygame.Rect(515+25, 660+25, 50, 50), "text": (17,7)})
+buttons.append({"rect": pygame.Rect(572+25, 173+25, 50, 50), "text": (2,8)})
+buttons.append({"rect": pygame.Rect(572+25, 238+25, 50, 50), "text": (4,8)})
+buttons.append({"rect": pygame.Rect(572+25, 303+25, 50, 50), "text": (6,8)})
+buttons.append({"rect": pygame.Rect(572+25, 368+25, 50, 50), "text": (8,8)})
+buttons.append({"rect": pygame.Rect(572+25, 433+25, 50, 50), "text": (10,8)})
+buttons.append({"rect": pygame.Rect(572+25, 498+25, 50, 50), "text": (12,8)})
+buttons.append({"rect": pygame.Rect(572+25, 563+25, 50, 50), "text": (14,8)})
+buttons.append({"rect": pygame.Rect(572+25, 628+25, 50, 50), "text": (16,8)})
+buttons.append({"rect": pygame.Rect(630+25, 205+25, 50, 50), "text": (3,9)})
+buttons.append({"rect": pygame.Rect(630+25, 270+25, 50, 50), "text": (5,9)})
+buttons.append({"rect": pygame.Rect(630+25, 335+25, 50, 50), "text": (7,9)})
+buttons.append({"rect": pygame.Rect(630+25, 400+25, 50, 50), "text": (9,9)})
+buttons.append({"rect": pygame.Rect(630+25, 465+25, 50, 50), "text": (11,9)})
+buttons.append({"rect": pygame.Rect(630+25, 530+25, 50, 50), "text": (13,9)})
+buttons.append({"rect": pygame.Rect(630+25, 595+25, 50, 50), "text": (15,9)})
+buttons.append({"rect": pygame.Rect(687+25, 303+25, 50, 50), "text": (6,10)})
+buttons.append({"rect": pygame.Rect(687+25, 368+25, 50, 50), "text": (8,10)})
+buttons.append({"rect": pygame.Rect(687+25, 433+25, 50, 50), "text": (10,10)})
+buttons.append({"rect": pygame.Rect(687+25, 498+25, 50, 50), "text": (12,10)})
 
     
 playerscore = 0
@@ -162,21 +162,20 @@ def renderboard():
     pygame.display.flip()
 
 def playerplays():
-    
     playerturn=False
 
 def pcplays():
-    
     playerturn=True
+    
 
 def checkline():
+    print()
     
-    break
 
 def scorerender():
     scoretext = font.render("Score: ", True, (255, 255, 255))
     start_button_rect = start_button_text.get_rect(center=screen.get_rect().center)
-    break
+    print()
 
 
 while running:
@@ -190,7 +189,6 @@ while running:
                 play_pressed = True
     # If play has been pressed, show the game screen
     if play_pressed:
-        print("k")
         break
     # If play hasn't been pressed, show the button
     else:
@@ -201,29 +199,32 @@ while running:
     pygame.display.flip()
 
 
+print("k")
 
-#initialrender
 screen.fill(background_color)
 screen.blit(scaled_image, scaled_rect)
+pygame.display.flip()
 #computerplace
 pcringimg = pygame.image.load("C:/Users/aadil/Desktop/redring.png")
 pctokimg = pygame.image.load("C:/Users/aadil/Desktop/redtok.png")
 
-pcringimgrect = pygame.Rect()
+pcringimgrect = pygame.Rect(572+25, 303+25, 50, 50)
 screen.blit(pcringimg, pcringimgrect)
-pcringimgrect = pygame.Rect()
+pcringimgrect = pygame.Rect(285+25, 400+25, 50, 50)
 screen.blit(pcringimg, pcringimgrect)
-pcringimgrect = pygame.Rect()
+pcringimgrect = pygame.Rect(400+25, 270+25, 50, 50)
 screen.blit(pcringimg, pcringimgrect)
-pcringimgrect = pygame.Rect()
+pcringimgrect = pygame.Rect(400+25, 530+25, 50, 50)
 screen.blit(pcringimg, pcringimgrect)
-pcringimgrect = pygame.Rect()
+pcringimgrect = pygame.Rect(285+25, 595+25, 50, 50)
 screen.blit(pcringimg, pcringimgrect)
-brd[][]=2
-brd[][]=2
-brd[][]=2
-brd[][]=2
-brd[][]=2
+brd[6][8]=2
+brd[9][3]=2
+brd[5][5]=2
+brd[13][5]=2
+brd[15][3]=2
+print("l")
+pygame.display.flip()
 
 #playerplacement
 plringimg = pygame.image.load("C:/Users/aadil/Desktop/bluering.png")
@@ -234,18 +235,45 @@ while placing:
     for event in pygame.event.get():
         if event.type == pygame.MOUSEBUTTONDOWN:
             mouse_pos = pygame.mouse.get_pos()
+            print(mouse_pos)
+            
             for button in buttons:
                 if button["rect"].collidepoint(mouse_pos):
+                    print(button["rect"])
                     arg=button["text"]
-                    plringimgrect = pygame.Rect()
+                    print(arg[0])
+                    print(arg[1])
+                    plringimgrect = button["rect"]
                     screen.blit(plringimg, plringimgrect)
-                    placed++
+                    placed=placed+1
                     brd[arg[0]][arg[1]]=3
+                    pygame.display.flip()
     if placed >= 5:
         break
 
+print("done")
 
+for r in brd:
+   for c in r:
+      print(c,end = " ")
+   print()
+   
+running=True
+   
+while running:
+    # Handle events
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+        elif event.type == pygame.MOUSEBUTTONDOWN:
+            mouse_pos = pygame.mouse.get_pos()
+    # Draw the board
+    renderboard()
+    # Update the screen
+    pygame.display.flip()
+    
 
+"""
 while running:
     renderboard()
     if playerturn:
@@ -260,7 +288,8 @@ while running:
     if pc_win:
         
         break
-    
+
+"""
 
 pygame.quit()
 
