@@ -44,3 +44,9 @@ It is possible, and not uncommon, to make a move which results in the opposing p
 If all of the markers are placed on the board before either player has won, the game ends, with the winner being the player who has removed more rings. If both players have removed the same number of rings at this point, the game ends in a draw.
 
 <img src="hhhhh.png">
+
+
+
+left right 115
+up down 65
+diagonal half of 115 and half 65
